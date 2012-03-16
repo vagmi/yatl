@@ -1,0 +1,5 @@
+<div class="bucket">
+  <%=link_to bucket.name, bucket %>
+  <%=link_to 'Edit', edit_bucket_path(bucket) %>
+  <%=link_to 'Delete',bucket, :method=>"delete", :confirm=>"Are you sure you want to delete this?" %>
+</div>
